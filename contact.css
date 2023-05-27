@@ -1,0 +1,174 @@
+h2{
+	font-family: 'Alkatra';
+}
+.float{
+	position:fixed;
+	width:180px;
+	height:60px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.phone{
+	padding: 10px auto 20px 20px;
+}
+/* navbar */
+nav {
+    position: fixed;
+    /* align-items: center; */
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: space-between;
+    object-fit: contain;
+    background-attachment: fixed;
+}
+
+.nav-logo {
+    padding: 0px 3px;
+}
+
+.navbar {
+    display: flex;
+    float: top;
+}
+
+.navbarlist {
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.navbarlist {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav {
+    position: relative;
+    display: flex;
+    float: right;
+}
+
+
+.navbarlist .active {
+    color: white;
+}
+
+.navbarlist .icon {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .navbarlist a:not(:first-child) {
+        display: none;
+    }
+
+    .navbarlist a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbarlist.responsive {
+        position: relative;
+    }
+
+    .navbarlist.responsive .icon {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+    .navbarlist.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.main{
+	padding: 50px 0px 10px 20px	;
+}
+
+.whatsapp{
+	padding: 10px 0px 80px 5px;
+}
+
+/* Footer */
+.end-footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+.footer {
+    background: #000;
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 0.8em;
+    display: inline-block;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+    .footer {
+        text-align: left;
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
+    }
+}
