@@ -1,7 +1,5 @@
 body {
-    overflow-x: hidden;
-    /*margin: ;*/
-
+    overflow-x: hidden;  
 }
 
 body h3 {
@@ -38,7 +36,12 @@ nav {
     object-fit: contain;
     background-attachment: fixed;
 }
-
+.navbar-brand{
+    color: white;
+}
+/* .raja-link,.nav-link{
+    color:white;
+} */
 .nav-logo {
     padding: 0px 3px;
 }
@@ -56,7 +59,7 @@ nav {
 .navbarlist {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -295,7 +298,7 @@ margin: auto;
 
 /* portfolio */
 .portfolio-main {
-    padding: 30px;
+    padding: 30px ;
 
 }
 
@@ -317,17 +320,17 @@ margin: auto;
 }
 
 .Project {
-    width: 30%;
+    width: 33%;
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px;
     margin-bottom: 30px;
     background-color: black;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .Project img {
-    max-width: 100%;
-    height: auto;
+    max-width: 400px;
+    height: 200px;
     margin-bottom: 20px;
 }
 
